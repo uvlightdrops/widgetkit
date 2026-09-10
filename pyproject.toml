@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "widgetkit"
+version = "0.1.0"
+description = "Django-neutral widget rendering core"
+requires-python = ">=3.10"
+dependencies = ["Jinja2>=3.1"]
+
+[tool.setuptools]
+packages = ["widgetkit"]
